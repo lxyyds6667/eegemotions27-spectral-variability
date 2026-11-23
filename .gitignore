@@ -1,0 +1,19 @@
+# Keep raw recordings and intermediate features locally. Include summary outputs.
+data/raw/**
+data/interim/**
+
+# Keep folder-level instructions/placeholders.
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+
+# MATLAB/editor artifacts.
+*.asv
+*.m~
+*.mat
+!outputs/modeling/evaluation_results.mat
+*.fig
+.DS_Store
+
+# Review archives are assembled from the source and results in this directory.
+EEGEmotions27_review*.zip
+

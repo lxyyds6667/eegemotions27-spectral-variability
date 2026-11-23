@@ -1,0 +1,161 @@
+{
+  "paths": {
+    "projectRoot": ".",
+    "datasetRoot": "data/raw/EEGEmotions-27",
+    "rawData": "data/raw/EEGEmotions-27/eeg_raw",
+    "participantInfo": "data/raw/EEGEmotions-27/participants_info.csv",
+    "channelLocations": "data/raw/EEGEmotions-27/emotivX_channels_location.ced",
+    "upstreamReadme": "data/raw/EEGEmotions-27/readme.md",
+    "interim": "data/interim",
+    "outputs": "outputs"
+  },
+  "data": {
+    "samplingRateHz": 256,
+    "expectedChannelCount": 14,
+    "channelNames": [
+      "AF3",
+      "F7",
+      "F3",
+      "FC5",
+      "T7",
+      "P7",
+      "O1",
+      "O2",
+      "P8",
+      "T8",
+      "FC6",
+      "F4",
+      "F8",
+      "AF4"
+    ],
+    "expectedEmotionIds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "emotionNames": [
+      "admiration",
+      "adoration",
+      "aesthetic",
+      "amusement",
+      "anger",
+      "anxiety",
+      "awes",
+      "awkwardness",
+      "boredom",
+      "calmness",
+      "confusion",
+      "craving",
+      "disgust",
+      "empathic_pain",
+      "entrancement",
+      "excitement",
+      "fear",
+      "horror",
+      "interest",
+      "joy",
+      "nostalgia",
+      "relief",
+      "romance",
+      "sadness",
+      "satisfaction",
+      "sexual_desire",
+      "surprised"
+    ],
+    "expectedParticipantCount": 88,
+    "units": "unknown",
+    "textDelimiter": "\t"
+  },
+  "welch": {
+    "windowSeconds": 2,
+    "overlapFraction": 0.5,
+    "nfftSeconds": 2
+  },
+  "bands": {
+    "names": [
+      "delta",
+      "theta",
+      "alpha",
+      "beta",
+      "low_gamma"
+    ],
+    "edgesHz": [
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        8,
+        12
+      ],
+      [
+        12,
+        30
+      ],
+      [
+        30,
+        40
+      ]
+    ]
+  },
+  "features": {
+    "type": "log_absolute_band_power",
+    "powerFloor": 2.2250738585072014E-308
+  },
+  "cv": {
+    "numFolds": 5,
+    "seed": 2701
+  },
+  "model": {
+    "learner": "linear_logistic_ecoc",
+    "lambda": 0.001
+  },
+  "permutation": {
+    "numRepeats": 100,
+    "seed": 2702
+  },
+  "randomBaseline": {
+    "numRepeats": 1000,
+    "seed": 2703
+  },
+  "audit": {
+    "halfRateThreshold": 0.75,
+    "durationToleranceFraction": 0.05,
+    "nominalHighFrequencyBandHz": [
+      50,
+      90
+    ],
+    "nominalLowFrequencyBandHz": [
+      1,
+      40
+    ]
+  }
+}

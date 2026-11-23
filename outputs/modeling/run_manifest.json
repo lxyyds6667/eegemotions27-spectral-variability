@@ -1,0 +1,97 @@
+{
+  "generatedAt": "2026-11-11T15:55:43-06:00",
+  "runCommand": "run_modeling",
+  "projectGitRevision": "uncommitted_worktree",
+  "featureMatSha256": "45ec0baebccacdb331ce118c95258112bc979aea690df8a880eec8619f68cdbb",
+  "auditSummarySha256": "21b970ae7ad8101c36bc1aac7c383d6fea1bcc5a8119e103401efe89983f5fc7",
+  "cvSeed": 2701,
+  "permutationSeed": 2702,
+  "randomBaselineSeed": 2703,
+  "matlabVersion": "25.1.0.2973910 (R2025a) Update 1",
+  "matlabRelease": "2025a",
+  "modelDescription": "one-vs-all linear logistic ECOC, ridge lambda=0.001",
+  "observedMacroF1": 0.047984284272128586,
+  "permutationEmpiricalP": 0.0099009900990099011,
+  "outputs": [
+    {
+      "outputName": "band_ablation.csv",
+      "outputSha256": "e966acfd9324e79a719323fb0aaaf0c8235810175ae858206f720392af901b3e"
+    },
+    {
+      "outputName": "band_ablation.png",
+      "outputSha256": "77a6a7d1147c33b72f275b89d380f37d7ddcca0f876ab72548cabc89030b2717"
+    },
+    {
+      "outputName": "band_ablation_fold_metrics.csv",
+      "outputSha256": "425d0cf11d3816ec443569b13cf3eef571b67eae9183139fd5901bc20f6d5eb3"
+    },
+    {
+      "outputName": "class_metrics.csv",
+      "outputSha256": "1d451d1df90de299ede5a488293f06eef93cb71014b037bc0c4be47c9dfd0bd1"
+    },
+    {
+      "outputName": "config.json",
+      "outputSha256": "c9c937cadb751d84f28d35baccaecd15ed8f0d5ce3ed5ef325d7eae873a023bd"
+    },
+    {
+      "outputName": "confusion_counts.csv",
+      "outputSha256": "28f04654ec9e62af1e5cf0ef96e6b80398cb346dd808b5693308bbcb1ee09054"
+    },
+    {
+      "outputName": "confusion_matrix.png",
+      "outputSha256": "1a14bd6a6588f397e4c9e22e4c08d9ba3506ac4ff85e0f7829828bbcbbdb6031"
+    },
+    {
+      "outputName": "confusion_row_normalized.csv",
+      "outputSha256": "aec01f205db2e0570941977c317c959314e18c0d83c229258e978e9d7e34d62d"
+    },
+    {
+      "outputName": "evaluation_results.mat",
+      "outputSha256": "85102ff1ec6e72e3455d0aabe7b0f94266a30b4a9710466aad2a75ebb8c2019e"
+    },
+    {
+      "outputName": "fold_class_support.csv",
+      "outputSha256": "8ce10d34b9d1d77255f8fbabef77ce75ccce6ceb413edeeeeb7ca558426f960d"
+    },
+    {
+      "outputName": "fold_manifest.csv",
+      "outputSha256": "98f1e28385477e480aa86f9e85605ac9c7631fb4e2bb0c1a9b3c112543d0a2f4"
+    },
+    {
+      "outputName": "fold_normalization_parameters.csv",
+      "outputSha256": "776d8f6ae4a1c01882fa6157b2153720152c9cf198717e18dcbafabba2ef934d"
+    },
+    {
+      "outputName": "metrics.csv",
+      "outputSha256": "9db6d98448cdc56affa58a1cbb8f50a80beb5789dc94158b48e2a300d34f51fe"
+    },
+    {
+      "outputName": "model_fold_metrics.csv",
+      "outputSha256": "10817555137e4b3e64bda592583dad3e1b6dfbdfd4689e34c9aee0999db4c476"
+    },
+    {
+      "outputName": "oof_predictions.csv",
+      "outputSha256": "b8827360e19fcc1a395a338addc574734ca3abf4a7c7bf641cc0222ad68e5d80"
+    },
+    {
+      "outputName": "participant_fold_assignment.csv",
+      "outputSha256": "deb9d6f35a8b7f0b19d6d52fed6b2127c8c2baff5a99e186ca3020a83eda17e5"
+    },
+    {
+      "outputName": "permutation_baseline.png",
+      "outputSha256": "342ee59c62b6824a606f12a6f8ba27b61a280f3a3f7bae03db06c938bccb4d33"
+    },
+    {
+      "outputName": "sampling_rate_group_metrics.csv",
+      "outputSha256": "b47b0deb013ce7f017af1dc8f05fdc10b7bb46b5be890ec4807da2c24263cb3e"
+    },
+    {
+      "outputName": "structured_permutation_baseline.csv",
+      "outputSha256": "2cb80d00207fbcea23411f3be022646d2c2d630f0f14d9853b7e1146f5d941a3"
+    },
+    {
+      "outputName": "uniform_random_baseline.csv",
+      "outputSha256": "c6ac4f9011e33ba8f9dc9b0af6ca38b14b49b8a6414d955cc7726d948211a42e"
+    }
+  ]
+}

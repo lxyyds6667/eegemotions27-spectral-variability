@@ -1,0 +1,10 @@
+{
+  "purpose": "Sensitivity analysis only: retain every structurally usable trial regardless of corrected-duration deviation.",
+  "primaryPolicy": "exclude corrected-duration deviations above 5 percent",
+  "sensitivityPolicy": "exclude only structurally unusable files",
+  "sameParticipantsFoldsFeaturesAndModel": true,
+  "primaryTrialCount": 2335,
+  "sensitivityTrialCount": 2342,
+  "addedDurationOutlierCount": 7,
+  "generatedAt": "2026-11-11T15:29:22-06:00"
+}

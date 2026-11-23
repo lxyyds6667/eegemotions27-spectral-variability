@@ -1,0 +1,8 @@
+trial_id,participant_id,condition_id,source_relative_path,corrected_duration_seconds,condition_duration_ratio
+P003_E15,3,15,eeg_raw/3_15.0.txt,22.5859375,0.940162601626016
+P021_E01,21,1,eeg_raw/21_1.0.txt,96.0625,2
+P030_E08,30,8,eeg_raw/30_8.0.txt,30.6640625,0.875432140069142
+P033_E01,33,1,eeg_raw/33_1.0.txt,300.765625,6.26187378009109
+P033_E03,33,3,eeg_raw/33_3.0.txt,20.0078125,0.740387395200925
+P033_E09,33,9,eeg_raw/33_9.0.txt,149.80859375,3.93909202958094
+P042_E04,42,4,eeg_raw/42_4.0.txt,319.9609375,3.80658053722465

@@ -1,0 +1,3 @@
+analysis,trial_count,macro_f1,balanced_accuracy,accuracy
+primary_5_percent_duration_rule,2335,0.0479842842721286,0.052969004530792,0.0531049250535332
+structural_only_exclusion,2342,0.0478868100934108,0.0527763827349499,0.0529461998292058

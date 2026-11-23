@@ -1,0 +1,5 @@
+criterion,passed
+pooled_gain,1
+four_positive_folds,1
+both_groups_nondecreasing,1
+above_all_permutations,1

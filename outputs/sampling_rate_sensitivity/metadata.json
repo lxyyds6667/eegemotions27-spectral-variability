@@ -1,0 +1,7 @@
+{
+  "purpose": "Sensitivity analysis only: force the repository-documented 256 Hz rate on every file despite the released-data length clusters.",
+  "sameTrialsAndFoldsAsPrimary": true,
+  "primaryFeatureInterpretation": "participant-level 128/256 Hz inferred before modeling",
+  "sensitivityFeatureInterpretation": "all files forced to 256 Hz",
+  "generatedAt": "2026-11-11T15:29:16-06:00"
+}

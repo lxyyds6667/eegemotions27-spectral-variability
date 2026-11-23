@@ -1,0 +1,68 @@
+{
+  "rawFolder": "data/raw/EEGEmotions-27/eeg_raw",
+  "fileCount": 2343,
+  "parseableFileCount": 2343,
+  "structuralReadyFileCount": 2342,
+  "analysisReadyFileCount": 2335,
+  "excludedFileCount": 8,
+  "uniqueParticipantCount": 88,
+  "uniqueEmotionCount": 27,
+  "expectedParticipantCount": 88,
+  "expectedEmotionCount": 27,
+  "participantCountMatchesDocumentation": true,
+  "participantIdsMatchMetadata": true,
+  "participantIdsMissingFromRaw": [],
+  "participantIdsAbsentFromMetadata": [],
+  "emotionIdsMatchDocumentation": true,
+  "duplicateTrialFileCount": 0,
+  "duplicateHashFileCount": 0,
+  "durationSecondsAtDocumented256": {
+    "minimum": 0.00390625,
+    "median": 32.01953125,
+    "maximum": 300.765625
+  },
+  "correctedDurationSeconds": {
+    "minimum": 0.00390625,
+    "median": 46.03125,
+    "maximum": 319.9609375
+  },
+  "fileBytes": {
+    "minimum": 168,
+    "median": 1.35576E+6,
+    "maximum": 1.2783797E+7
+  },
+  "inferred128ParticipantCount": 41,
+  "consistent256ParticipantCount": 47,
+  "ambiguousSamplingParticipantCount": 0,
+  "durationOutlierFileCount": 7,
+  "unexplainedExcludedFileCount": 0,
+  "canProceedToFeatureExtraction": true,
+  "signalUnits": "unknown",
+  "preprocessingStatus": "public files described as raw; filtering/reference/ICA status unknown",
+  "spectralSamplingValidation": {
+    "nominalHighBandHz": [
+      50,
+      90
+    ],
+    "nominalLowBandHz": [
+      1,
+      40
+    ],
+    "inferred128MedianLog10Ratio": -1.4624363513415592,
+    "consistent256MedianLog10Ratio": -4.0369521200135017,
+    "completeSeparation": false
+  },
+  "upstream": {
+    "url": "https://github.com/huytungst/EEGEmotions-27",
+    "license": "CC BY-NC 4.0",
+    "commit": "0dfec14d177ed73c37a95f06d942e9b58e2bbf77"
+  },
+  "generatedAt": "2026-11-11T15:19:07-06:00",
+  "matlab": {
+    "version": "25.1.0.2973910 (R2025a) Update 1",
+    "release": "2025a",
+    "computer": "MACA64",
+    "signalToolbox": "25.1",
+    "statisticsToolbox": "25.1"
+  }
+}

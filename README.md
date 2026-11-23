@@ -1,7 +1,5 @@
 # Can EEG band-power variation distinguish 27 video conditions?
 
-[中文讲解](README_CN.md)
-
 A whole-trial average can hide changes in EEG power during a video. To test whether those changes help classify the stimulus condition, this project compared three Fourier-based representations of the same 2,335 recordings from 88 participants in EEGEmotions-27. Each prediction came from a model trained on other participants.
 
 | Representation | Features | Correct / 2,335 | Accuracy | Macro-F1 |

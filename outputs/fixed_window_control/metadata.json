@@ -1,0 +1,25 @@
+{
+  "upstream_commit": "0dfec14d177ed73c37a95f06d942e9b58e2bbf77",
+  "plan_sha256": "bed5b7e11821106422ddb79dcfff8a12eb6a8c9ab6584c26bceab1488b683f61",
+  "baseline_features_sha256": "45ec0baebccacdb331ce118c95258112bc979aea690df8a880eec8619f68cdbb",
+  "fold_manifest_sha256": "98f1e28385477e480aa86f9e85605ac9c7631fb4e2bb0c1a9b3c112543d0a2f4",
+  "temporal_predictions_sha256": "ef0f1075533c5d76a8fce4a543613cf900f76846f0744686bc4e755375d65dd7",
+  "raw_files_verified": 2335,
+  "participant_count": 88,
+  "whole_trial_features": 70,
+  "added_features": 70,
+  "block_seconds": 3,
+  "window_seconds": 2,
+  "overlap_fraction": 0.5,
+  "windows_per_block": 2,
+  "matlab_release": "2025a",
+  "model": "one-vs-all linear logistic ECOC, ridge lambda=0.001",
+  "bootstrap": {
+    "seed": 2704,
+    "repeats": 2000,
+    "lower": -0.0051522448681755005,
+    "upper": 0.016103280985883133
+  },
+  "predictions_sha256": "c4ea084cc4e7830f8b6aa2b057428172bd5244c5b20204c978d5528e7c6b4206",
+  "metrics_sha256": "5fdf3ed3f1221d7902404f1fadd988b298e697276d9301bd240ca640289b09cb"
+}
